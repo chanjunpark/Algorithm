@@ -21,11 +21,11 @@ Practice algorithm
  - collections.Counter(list) 를 이용해 쉽게 단어의 개수를 구할 수 있음 -> 티스토리에 정리할 예정
  - 나는 딕셔너리 자료구조를 이용해 풀었으며, word를 key로 하고 개수를 value로 하는 딕셔너리를 만든 뒤 item을 언팩킹하여 value가 가장 큰 값을 찾아 리턴했음.
 
-49. Group Anagram(Midium) : 문자열을 받아 애너그램 단위로 그룹화하여 리턴하는 문제
+49. Group Anagram(Medium) : 문자열을 받아 애너그램 단위로 그룹화하여 리턴하는 문제
  - collections.defaultdict(list) 를 이용해 존재하지 않는 키를 삽입하는 경우 발생하는 에러를 안 나도록 할 수 있음. 이후 .values()를 리턴해주면 됨. -> 티스토리에 정리할 예정
  - 나는 딕셔너리 자료구조를 이용해 풀었으며, 딕셔너리 key에 sorted word가 없다면 sorted word를 key, index를 value로 하는 값을 삽입한 뒤, 딕셔너리 key에 sorted word가 있는 경우 index를 value로 받아와 해당 index의 이중리스트에 word를 삽입했음.
 
-5. Longest Palindrome Substring : 가장 긴 팰린드롬 부분 문자열을 출력하는 문제
+5. Longest Palindrome Substring(Medium) : 가장 긴 팰린드롬 부분 문자열을 출력하는 문제
  - 이전에 이미 혼자 풀었음
  - 반복문을 통해 index를 1씩 증가시키며 문자열 내 index에 해당하는 글자를 중심으로(가운데) 최대로 유효한 팰린드롬을 찾았음.
 
