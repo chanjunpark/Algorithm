@@ -1,6 +1,8 @@
 # Algorithm
 Practice algorithm
 하루 세 문제씩 공부하는 알고리즘(Python, Java)
+리트코드 문항 순서 : 문자열 -> 배열 -> 연결리스트 
+참고서적 : 파이썬 알고리즘 인터뷰(박상길, 책만)
 
 ### '21. 12. 6.Mon Leetcode
 
@@ -53,6 +55,40 @@ Practice algorithm
 234. Palindrome Linked List(Easy) : 연결 리스트가 팰린드롬 구조인지 판별 (Python, JAVA)
  - Deque 자료구조를 이용해 풀이했음. 
  - 연결 리스트 모든 요소를 Deque에 차례대로 삽입한 뒤, 양 끝부터 제거해가면서 다른 값이 있다면 false를 리턴
+
+### '21. 12. 9.Thu LeetCode
+
+21. Merge Two Sorted List(Easy) : 두 정렬 리스트를 병합하여 리턴 (Python, Java)
+
+
+206. Reverse Linked List(Easy) : 주어진 연결리스트를 역순으로 반환 (Python, Java)
+ - Easy인데도 너무 어려웠음;;
+ - 재귀나 반복 어떤 방법을 통해서도 풀 수 있는 듯한데, 재귀로 푸는 방식도 익숙해지자.
+
+2. Add Two Numbers(Medium) : 역순으로 저장된 연결리스트의 숫자를 더하라 (Python, Java)
+
+
+### '21. 12. 10.Fri LeetCode
+
+24. Swap Nodes in Pairs(Medium) : 연결 리스트를 입력 받아 페어(한 쌍) 단위로 스왑하라 (Python)
+ - 아직까지 연결리스트 자료구조를 바탕으로 알고리즘 구현하는 것이 어려움. 
+ - 특히, 맨 앞부분에 객체 생성 변수를 다시 다른 변수에 할당하고 구현하는 절차가 잘 이해가 안 되는 느낌...
+ - 일단 답보고 풀었는데 나중에 다시 풀어보기
+
+328. Odd Even Linked List(Medium) : 연결 리스트의 홀수번째 노드 다음으로 짝수번째 노드가 오도록 재구성 (Python)
+ - 연결 리스트 문제 Medium에서 처음으로 답 안 보고 해결
+ - odd_node, odd_list, even_node, even_list 를 만들어 head는 odd에 head.next 는 even에 저장하고 head를 두칸씩 이동시키는 방식으로 구현함
+ - 연결 리스트 순서를 바꾸고자 할 때는 가위로 선을 자른다고 생각하고 post = head.next 와 같은 방식으로 뒤의 값을 살려놓은뒤 head.next=None 과 같이 head만 따로 떼어낼 수 있음.
+
+
+
+
+
+
+
+
+
+
 
 
 
