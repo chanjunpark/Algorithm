@@ -1,4 +1,5 @@
 #### 직접 정의한 class의 instance를 담은 List에서 max, min 등 비교 연산 수행하고 싶을 때
+
 ```java
   /**
   * Comparable<T> 인터페이스를 구현하여 compareTo 메서드를 Overriding 해주면 된다.
