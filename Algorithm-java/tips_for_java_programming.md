@@ -34,6 +34,6 @@
   import java.util.*;
   import java.util.stream.Collectors;
 
-  Queue<Document> DQ = new LinkedList<>(); // Document를 담는 Queue를 생성하고
-  System.out.println(Collections.max(DQ).getPriority()) DQ에서 가장 큰 우선순위를 갖는 document instance를 찾을 수 있다.
+  Queue<Document> DQ = new LinkedList<>(); //Document를 담는 Queue를 생성하고
+  System.out.println(Collections.max(DQ).getPriority()); //DQ에서 가장 큰 우선순위를 갖는 document instance를 찾을 수 있다.
 ```
